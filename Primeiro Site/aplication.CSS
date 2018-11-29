@@ -1,0 +1,68 @@
+body{
+	width: 100%;
+	max-width: 800px;
+	padding: 30px;
+	min-height: center;
+	margin: auto;
+	background: url(painel.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: white;
+
+}
+
+main{
+	padding: 5px 40px;
+	margin-top: 30px;
+	border-radius: 10px;
+	margin: 25px;
+	background: #00000075;
+}
+/*Logo*/
+.logo, .band-name, .headline{
+	margin: 0;
+	text-align: center;
+}
+/*tela que fala sobre os cursos no final da pagina*/
+.cursos{
+	margin: 30px 0;
+	width: 100%;
+	text-align: center;
+}
+/*pequena janela que contem os cursos*/
+.cursos table{
+	background: #3f51b5b5;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+}
+/*Botão*/
+.button {
+    display: inline-block;
+    margin: auto;
+    left: 100px;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
